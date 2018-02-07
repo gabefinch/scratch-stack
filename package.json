@@ -1,0 +1,34 @@
+{
+  "name": "js-stack-from-scratch",
+  "version": "1.0.0",
+  "description": "https://github.com/verekia/js-stack-from-scratch",
+  "main": "index.js",
+  "license": "UNLICENSED",
+  "browserslist": [
+    "> 1%"
+  ],
+  "scripts": {
+    "start": "babel-node src",
+    "test": "eslint src && flow && jest --coverage",
+    "precommit": "yarn test",
+    "prepush": "yarn test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^8.2.1",
+    "babel-jest": "^22.2.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-flow": "^6.23.0",
+    "eslint": "4.9.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-compat": "^2.2.0",
+    "eslint-plugin-flowtype": "^2.42.0",
+    "eslint-plugin-import": "2.7.0",
+    "eslint-plugin-jsx-a11y": "6.0.2",
+    "eslint-plugin-react": "7.4.0",
+    "flow-bin": "^0.65.0",
+    "husky": "^0.14.3",
+    "jest": "^22.2.1"
+  }
+}
